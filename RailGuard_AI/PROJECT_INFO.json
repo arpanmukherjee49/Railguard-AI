@@ -1,0 +1,13 @@
+{
+  "name": "RailGuard AI",
+  "version": "1.0.0",
+  "purpose": "Hackathon prototype for predictive maintenance of electric train traction-motor bearings",
+  "model": "RandomForestClassifier",
+  "features": ["Temperature", "Vibration", "Current", "Load"],
+  "classes": ["Normal", "Degrading", "Fault"],
+  "mqtt_broker": "broker.hivemq.com",
+  "mqtt_port": 1883,
+  "mqtt_topic": "railguard/demo/traction_bearing",
+  "dashboard_mode": "Demo Mode with simulated sensor data",
+  "training_data": "Synthetic prototype data"
+}
